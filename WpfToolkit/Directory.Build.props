@@ -11,7 +11,7 @@
         <LanguageTargets Condition="Exists('$(MSBuildProjectDirectory)\$(AssemblyName).vbproj')">$(MSBuildToolsPath)\Microsoft.VisualBasic.targets</LanguageTargets>
     </PropertyGroup>
 
-    <ItemGroup>
+    <ItemGroup Condition="'$(TargetFramework)' != 'netcoreapp3.0'">
         <Reference Include="PresentationCore" />
         <Reference Include="PresentationFramework" />
         <Reference Include="System.Xaml" />

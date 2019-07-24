@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetProjects.DataVisualization.Toolkit", "DataVisualization\DotNetProjects.DataVisualization.Toolkit.csproj", "{066FB4E3-8F9C-42D0-9982-8B1F238FAF63}"
 EndProject
@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{6D8DCDC8-C505-
 	ProjectSection(SolutionItems) = preProject
 		..\appveyor.yml = ..\appveyor.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetProjects.Input.Toolkit.netcore3.0", "Input\DotNetProjects.Input.Toolkit.netcore3.0\DotNetProjects.Input.Toolkit.netcore3.0.csproj", "{94BC129D-F8DF-43EF-8092-89F3FB7B5157}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,12 @@ Global
 		{CD3CD636-D63E-4BD5-9FE9-2B63DA6F0616}.Release with Code Analysis|Any CPU.Build.0 = Release|Any CPU
 		{CD3CD636-D63E-4BD5-9FE9-2B63DA6F0616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3CD636-D63E-4BD5-9FE9-2B63DA6F0616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Release with Code Analysis|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Release with Code Analysis|Any CPU.Build.0 = Release|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC129D-F8DF-43EF-8092-89F3FB7B5157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
